@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
@@ -19,7 +20,7 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="#"></a>
+                            <a class="navbar-brand" href="index.html">WINTER</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="flase" aria-label="Toggle navigation">
@@ -31,29 +32,24 @@
                                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                        <a class="nav-link" href="#">Actividades</a>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Dropdown
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">  
+                                        Esquí                                          
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Esquí alpino</a></li>
+                                            <li><a class="dropdown-item" href="#">Esquí de fondo</a></li>
                                             <li><hr class="dropdown-divider"></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a class="dropdown-item" href="#">Otras modalidades</a></li>
                                         </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link disabled" href="#" tabindex="1" aria-disabled="">
-                                            Disabled
-                                        </a>
                                     </li>
                                 </ul>
                                 <form class="d-flex">
                                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                    <button id="searchBtn" class="btn btn-success" type="submit">Search</button>
                                 </form>
                             </div>
                         </div>
@@ -93,20 +89,20 @@
                         <h3>Me gusta mucho más el</h3>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">Verano</label>
+                        <input class="form-check-input" type="radio" name="estación">
+                        <label class="form-check-label" for="verano">Verano</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault2">Invierno</label>
+                        <input class="form-check-input" type="radio" name="estación">
+                        <label class="form-check-label" for="invierno">Invierno</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault3">
-                        <label class="form-check-label" for="flexRadioDefault3">Primavera</label>
+                        <input class="form-check-input" type="radio" name="estación">
+                        <label class="form-check-label" for="primavera">Primavera</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault4">
-                        <label class="form-check-label" for="flexRadioDefault4">Otoño</label>
+                        <input class="form-check-input" type="radio" name="estación">
+                        <label class="form-check-label" for="otoño">Otoño</label>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">

@@ -1,7 +1,20 @@
-.container{
-    background-color: #979998;
+body{
+    background: #e6dada;
+    background: -webkit-linear-gradient(to right, #afd0d8,#e6dada);
+    background: linear-gradient(to right, #afd0d8,#e6dada
+    );
 }
 #roundImage{
     width: 50px;
     height: 50px;
+}
+#searchBtn{
+    background-color: rgb(61, 126, 126);
+}
+#searchBtn:hover{
+    background-color: white;
+    color: rgb(61, 126, 126);
+}
+.nav-item:hover{
+    background-color: rgb(61, 126, 126);
 }
